@@ -3,8 +3,8 @@
     "type": "MOD_INFO",
     "id": "spaynescontentpack",
     "name": "Spayne's content pack",
-    "authors": [ "Spayne", "V", "Minos Prime", "Raiden", "Burgerman" ],
-    "maintainers": [ "Spayne", "V", "Minos Prime", "Raiden", "Burgerman" ],
+    "authors": [ "Spayne" ],
+    "maintainers": [ "Spayne" ],
     "description": "A giant mess of stuff that adds too the game... I think",
     "category": "content",
     "dependencies": [ "dda" ]
