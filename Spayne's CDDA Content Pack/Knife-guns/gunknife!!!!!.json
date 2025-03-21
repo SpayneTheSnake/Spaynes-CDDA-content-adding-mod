@@ -1,0 +1,68 @@
+[
+{
+  "id": "makeshift_knifeT",
+  "type": "GUN",
+  "reload_noise_volume": 10,
+  "name": {
+    "str": "test gunknife",
+    "str_pl": "test gun-knives"
+  },
+  "description": "A knife consisting of a long, somewhat sharpened spike and a tightly-wrapped rag as a handle.  Not as good as a real knife, but it'll do in a pinch.",
+  "weight": "575 g",
+  "volume": "260 ml",
+  "longest_side": "7 cm",
+  "price": "0 cent",
+  "price_postapoc": "50 cent",
+  "to_hit": {
+    "grip": "solid",
+    "length": "hand",
+    "surface": "point",
+    "balance": "neutral"
+  },
+  "material": [
+    "steel"
+  ],
+  "symbol": ";",
+  "color": "dark_gray",
+  "qualities": [
+    [
+      "CUT",
+      2
+    ],
+    [
+      "BUTCHER",
+      11
+    ]
+  ],
+  "skill": "pistol",
+"pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "shot": 1
+      }
+    }
+  ],
+  "handling": 10,
+"ammo": [
+    "shot"
+  ],
+  "reload": 80,
+"dispersion": 3000,
+  "sight_dispersion": 100,
+  "flags": [
+    "SHEATH_KNIFE",
+    "ALLOWS_BODY_BLOCK",
+   "NEVER_JAMS",
+    "RELOAD_EJECT",
+    "EASY_CLEAN"
+  ],
+  "weapon_category": [
+    "KNIVES"
+  ],
+  "melee_damage": {
+    "stab": 10
+  }
+}
+]

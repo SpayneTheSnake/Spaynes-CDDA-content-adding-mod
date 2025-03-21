@@ -1,0 +1,93 @@
+[
+{
+  "id": "wood-casedlight_UPS_OFF",
+  "type": "TOOL",
+  "name": {
+    "str": "wood-cased light UPS (off)",
+    "str_pl": "wood-cased light UPSes (off)"
+  },
+  "description": "A small homemade unified power supply, or UPS, with a wood casing too protect the wiring and battery, it can even be put on a belt too. Built too use light batteries or ultra-light batteries, a invaluable tool for someone that doesn't want too lug arround heavy batteries, but need to power UPS compatible things",
+   "weight": "60 g",
+  "volume": "50 ml",
+  "longest_side": "4 cm",
+  "price": "700 USD",
+  "price_postapoc": "5 USD",
+  "to_hit": -1,
+  "material": [
+    "copper",
+    "wood"
+  ],
+"flags": [ "NONCONDUCTIVE", "BELT_CLIP" ],
+
+  "symbol": ";",
+  "color": "brown",
+  "ammo": [
+    "battery"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE_WELL",
+      "rigid": true,
+      "flag_restriction": [
+        "BATTERY_ULTRA_LIGHT", "BATTERY_LIGHT"
+      ],
+      "default_magazine": "light_battery_cell"
+    }
+  ],
+  "charges_per_use": 1,
+  "use_action": {
+    "ammo_scale": 0,
+    "target": "wood-casedlight_UPS_ON",
+    "msg": "You turn the charger on.",
+    "active": true,
+    "need_charges": 1,
+    "need_charges_msg": "The charger's battery is empty.",
+    "type": "transform"
+  },
+  "melee_damage": {
+    "bash": 4
+  }},
+{
+  "id": "wood-casedlight_UPS_ON",
+  "type": "TOOL",
+  "name": {
+    "str": "wood-cased light UPS (on)",
+    "str_pl": "wood-cased light UPSes (on)"
+  },
+  "description": "A small homemade unified power supply, or UPS, with a wood casing too protect the wiring and battery, it can even be put on a belt too. Built too use light batteries or ultra-light batteries, a invaluable tool for someone that doesn't want too lug arround heavy batteries, but need to power UPS compatible things",
+   "weight": "60 g",
+  "volume": "50 ml",
+  "price": "700 USD",
+  "price_postapoc": "5 USD",
+  "to_hit": -1,
+  "material": [
+    "copper",
+    "wood"
+  ],
+"flags": [ "IS_UPS", "NONCONDUCTIVE", "BELT_CLIP" ],
+  "symbol": ";",
+  "color": "brown",
+  "ammo": [
+    "battery"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE_WELL",
+      "rigid": true,
+      "flag_restriction": [
+        "BATTERY_ULTRA_LIGHT", "BATTERY_LIGHT"
+      ],
+      "default_magazine": "light_battery_cell"
+    }
+  ],
+  "charges_per_use": 1,
+  "use_action": {
+    "ammo_scale": 0,
+    "target": "wood-casedlight_UPS_OFF",
+    "msg": "The charger is turned off.",
+    "menu_text": "Turn Off",
+    "type": "transform"
+  },
+  "melee_damage": {
+    "bash": 4
+  }}]

@@ -1,0 +1,93 @@
+[{
+  "id": "woodcasedMedium_UPS_OFF",
+  "type": "TOOL",
+  "name": {
+    "str": "Medium UPS (off)",
+    "str_pl": "Medium UPSes (off)"
+  },
+  "description": "A medium-sized homemade unified power supply, or UPS, with a wood casing too protect the wiring and battery, it can even be put on a belt too. Built too use medium batteries but is compatible with smaller batteries, a invaluable tool for someone that needs a decent amount of UPS power but are still concerned with space and weight",
+  "weight": "720 g",
+  "volume": "700 ml",
+  "longest_side": "10 cm",
+
+  "price": "1 kUSD",
+  "price_postapoc": "7 USD 50 cent",
+  "to_hit": -1,
+  "material": [
+    "copper",
+    "wood"
+  ],
+"flags": [ "BELT_CLIP", "NONCONDUCTIVE"  ],
+  "symbol": ";",
+  "color": "brown",
+  "ammo": [
+    "battery"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE_WELL",
+      "rigid": true,
+      "flag_restriction": [
+       "BATTERY_ULTRA_LIGHT", "BATTERY_LIGHT", "BATTERY_MEDIUM"
+      ],
+      "default_magazine": "medium_battery_cell"
+    }
+  ],
+  "charges_per_use": 1,
+  "use_action": {
+    "ammo_scale": 0,
+    "target": "woodcasedMedium_UPS_ON",
+    "msg": "You turn the UPS on.",
+    "active": true,
+    "need_charges": 1,
+    "need_charges_msg": "The charger's battery is empty.",
+    "type": "transform"
+  },
+  "melee_damage": {
+    "bash": 7
+  }}, 
+{
+  "id": "woodcasedMedium_UPS_ON",
+  "type": "TOOL",
+  "name": {
+    "str": "Medium UPS (on)",
+    "str_pl": "Medium UPSes (on)"
+  },
+  "description": "A medium-sized homemade unified power supply, or UPS, with a wood casing too protect the wiring and battery, it can even be put on a belt too. Built too use medium batteries but is compatible with smaller batteries, a invaluable tool for someone that needs a decent amount of UPS power but are still concerned with space and weight",
+   "weight": "720 g",
+  "volume": "700 ml",
+"longest_side": "10 cm",
+  "price": "1 kUSD",
+  "price_postapoc": "7 USD 50 cent",
+  "to_hit": -1,
+  "material": [
+    "copper",
+    "wood"
+  ],
+"flags": [ "IS_UPS", "BELT_CLIP", "NONCONDUCTIVE" ],
+  "symbol": ";",
+  "color": "brown",
+  "ammo": [
+    "battery"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE_WELL",
+      "rigid": true,
+      "flag_restriction": [
+         "BATTERY_ULTRA_LIGHT", "BATTERY_LIGHT", "BATTERY_MEDIUM"
+      ],
+      "default_magazine": "medium_battery_cell"
+    }
+  ],
+  "charges_per_use": 1,
+  "use_action": {
+    "ammo_scale": 0,
+    "target": "woodcasedMedium_UPS_OFF",
+    "msg": "The UPS is turned off.",
+    "menu_text": "Turn Off",
+    "type": "transform"
+  },
+  "melee_damage": {
+    "bash": 7
+  }}]

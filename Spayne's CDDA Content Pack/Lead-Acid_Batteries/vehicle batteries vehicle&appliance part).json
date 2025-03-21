@@ -1,0 +1,397 @@
+[
+{
+  "id": "battery_heavy_lead-acid",
+  "type": "vehicle_part",
+  "name": {
+    "str": "heavy lead-acid battery"
+  },
+  "item": "heavy_lead-acid_battery_cell",
+  "fuel_type": "battery",
+  "categories": [
+    "energy"
+  ],
+  "color": "yellow",
+  "broken_color": "red",
+  "durability": 120,
+  "description": "A battery for storing electrical power, and discharging it to power electrical devices built into the vehicle.",
+  "folded_volume": "1500 ml",
+  "breaks_into": [
+    {
+      "item": "chem_sulphuric_acid",
+      "count": [
+        2,
+        2
+      ]
+    },
+    {
+      "item": "lead",
+      "count": [
+        130,
+        150
+      ]
+    },
+    {
+      "item": "ceramic_shard",
+      "count": [
+        10,
+        15
+      ]
+    }
+  ],
+  "requirements": {
+    "install": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "30 s",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "removal": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "30 s",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "repair": {
+      "skills": [
+        [
+          "mechanics",
+          3
+        ]
+      ],
+      "time": "600 s",
+      "using": [
+        [
+          "soldering_standard",
+          5
+        ]
+      ]
+    }
+  },
+  "damage_reduction": {
+    "bash": 10
+  },
+  "flags": [
+    "BATTERY"
+  ],
+  "variants": [
+    {
+      "symbols": "o",
+      "symbols_broken": "#"
+    }
+  ]
+},
+{
+  "id": "battery_car_lead-acid",
+  "type": "vehicle_part",
+  "name": {
+    "str": "homemade car battery"
+  },
+  "item": "car_lead-acid_battery_cell",
+  "fuel_type": "battery",
+  "categories": [
+    "energy"
+  ],
+  "color": "yellow",
+  "broken_color": "red",
+  "durability": 120,
+  "description": "A battery for storing electrical power, and discharging it to power electrical devices built into the vehicle.",
+  "folded_volume": "10 L",
+  "breaks_into": [
+    {
+      "item": "chem_sulphuric_acid",
+      "count": [
+        13,
+        13
+      ]
+    },
+    {
+      "item": "lead",
+      "count": [
+        2280,
+        2400
+      ]
+    },
+    {
+      "item": "ceramic_shard",
+      "count": [
+        15,
+        30
+      ]
+    }
+  ],
+  "requirements": {
+    "install": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "50 s",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "removal": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "50 s",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "repair": {
+      "skills": [
+        [
+          "mechanics",
+          3
+        ]
+      ],
+      "time": "600 s",
+      "using": [
+        [
+          "soldering_standard",
+          5
+        ]
+      ]
+    }
+  },
+  "damage_reduction": {
+    "bash": 10
+  },
+  "flags": [
+    "BATTERY"
+  ],
+  "variants": [
+    {
+      "symbols": "o",
+      "symbols_broken": "#"
+    }
+  ]
+},
+{
+  "id": "small_lead-acid_EV_battery_cell_1",
+  "type": "vehicle_part",
+  "name": {
+    "str": "small lead-acid EV battery cell"
+  },
+  "item": "small_lead-acid_EV_battery_cell",
+  "fuel_type": "battery",
+  "categories": [
+    "energy"
+  ],
+  "color": "yellow",
+  "broken_color": "red",
+  "durability": 120,
+  "description": "A battery for storing electrical power, and discharging it to power electrical devices built into the vehicle.",
+  "folded_volume": "3 L",
+  "breaks_into": [
+    {
+      "item": "chem_sulphuric_acid",
+      "count": [
+        3,
+        3
+      ]
+    },
+    {
+      "item": "lead",
+      "count": [
+        1000,
+        1020
+      ]
+    },
+    {
+      "item": "ceramic_shard",
+      "count": [
+        10,
+        20
+      ]
+    }
+  ],
+  "requirements": {
+    "install": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "40 s",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "removal": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "40 s",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "repair": {
+      "skills": [
+        [
+          "mechanics",
+          3
+        ]
+      ],
+      "time": "600 s",
+      "using": [
+        [
+          "soldering_standard",
+          5
+        ]
+      ]
+    }
+  },
+  "damage_reduction": {
+    "bash": 10
+  },
+  "flags": [
+    "BATTERY"
+  ],
+  "variants": [
+    {
+      "symbols": "o",
+      "symbols_broken": "#"
+    }
+  ]
+},
+{
+  "id": "small_lead-acid_EV_battery_cell_9",
+  "type": "vehicle_part",
+  "name": {
+    "str": "small lead-acid EV battery cell array (9)"
+  },
+  "item": "small_lead-acid_EV_battery_cell_array",
+  "fuel_type": "battery",
+  "categories": [
+    "energy"
+  ],
+  "color": "yellow",
+  "broken_color": "red",
+  "durability": 160,
+  "description": "A battery for storing electrical power, and discharging it to power electrical devices built into the vehicle.",
+  "breaks_into": [
+    {
+      "item": "chem_sulphuric_acid",
+      "count": [
+        27,
+        27
+      ]
+    },
+    {
+      "item": "lead",
+      "count": [
+        3000,
+        3090
+      ]
+    },
+    {
+      "item": "ceramic_shard",
+      "count": [
+        90,
+        180
+      ]
+    }
+  ],
+  "requirements": {
+    "install": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "10 m",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "removal": {
+      "skills": [
+        [
+          "mechanics",
+          0
+        ]
+      ],
+      "time": "15 m",
+      "qualities": [
+        {
+          "id": "WRENCH",
+          "level": 1
+        }
+      ]
+    },
+    "repair": {
+      "skills": [
+        [
+          "mechanics",
+          3
+        ]
+      ],
+      "time": "600 s",
+      "using": [
+        [
+          "soldering_standard",
+          45
+        ]
+      ]
+    }
+  },
+  "damage_reduction": {
+    "bash": 10
+  },
+  "flags": [
+    "BATTERY"
+  ],
+  "variants": [
+    {
+      "symbols": "o",
+      "symbols_broken": "#"
+    }
+  ]
+}
+]

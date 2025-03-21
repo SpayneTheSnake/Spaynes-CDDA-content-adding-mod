@@ -1,0 +1,257 @@
+[
+{
+  "id": "car_lead-acid_battery_cell",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "homemade car battery",
+    "str_pl": "homemade car batteries"
+  },
+  "description": "A homemade lead-acid battery, as big as a normal car battery and intended too be used as a normal car battery, it has less charge than modern rechargables but it makes up for that with being cheap too make, the rechargeability making it better than homemade dry batteries",
+  "weight": "20000 g",
+  "volume": "10000 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "=",
+  "looks_like": "heavy_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+  "capacity": 3000,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 3000
+      }
+    }
+  ]
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "car_lead-acid_battery_cell",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    [
+      "electronics",
+      1
+    ],
+    [
+      "chemistry",
+      1
+    ]
+  ],
+  "difficulty": 2,
+  "time": "5 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_intro_chemistry"
+    }
+  ],
+  "components": [
+    [
+      [
+        "chem_sulphuric_acid",
+        13
+      ]
+    ],
+    [
+      [
+        "car_lead-acid_battery_casing",
+        1
+      ]
+    ],
+    [
+      [
+        "adhesive",
+        8,
+        "LIST"
+      ]
+    ]
+  ]
+},
+{
+  "id": "small_lead-acid_EV_battery_cell",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "small lead-acid EV battery cell",
+    "str_pl": "small lead-acid EV battery cells"
+  },
+  "description": "A small battery cell, while designed too be used in a array with multiple of the same battery under a cars floor, it can be used for other things aswell.",
+  "weight": "6000 g",
+  "volume": "3000 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "*",
+  "looks_like": "heavy_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+  "capacity": 900,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 900
+      }
+    }
+  ]
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "small_lead-acid_EV_battery_cell",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    [
+      "electronics",
+      1
+    ],
+    [
+      "chemistry",
+      1
+    ]
+  ],
+  "difficulty": 2,
+  "time": "3 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_intro_chemistry"
+    }
+  ],
+  "components": [
+    [
+      [
+        "chem_sulphuric_acid",
+       3
+      ]
+    ],
+    [
+      [
+        "small_lead-acid_EV_battery_casing",
+        1
+      ]
+    ],
+    [
+      [
+        "adhesive",
+        6,
+        "LIST"
+      ]
+    ]
+  ]
+},
+{
+  "id": "small_lead-acid_EV_battery_cell_array",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "small lead-acid EV battery cell array (9)",
+    "str_pl": "small lead-acid EV battery cell arrays (9)"
+  },
+  "description": "A array of 9 small lead-acid EV cells protected by a frame and ready too be put into a vehicle",
+  "weight": "54000 g",
+  "volume": "27000 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "#",
+  "looks_like": "heavy_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+  "capacity": 8100,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 8100
+      }
+    }
+  ]
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "small_lead-acid_EV_battery_cell_array",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    [
+      "electronics",
+      1
+    ]
+  ],
+  "difficulty": 2,
+  "time": "10 m",
+  "autolearn": true,
+  "components": [
+    [
+      [
+        "cable",
+       10
+      ]
+    ],
+    [
+      [
+        "small_lead-acid_EV_battery_cell",
+        1
+      ]
+    ],
+    [
+      [
+        "frame",
+        1
+      ],
+      [
+        "frame_wood",
+        1
+      ]
+    ]
+  ]
+}
+]

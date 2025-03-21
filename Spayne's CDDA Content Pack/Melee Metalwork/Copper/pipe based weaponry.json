@@ -1,0 +1,69 @@
+[
+{
+  "id": "crude_copper_pipe_knife",
+  "type": "TOOL",
+  "name": {
+    "str": "crude copper pipe knife",
+    "str_pl": "crude copper pipe knives"
+  },
+  "looks_like": "copper_knife",
+  "description": "A knife made of a crudely-worked copper pipe with a simple handle. Better than no knife for sure.",
+"variant_type": "generic",
+  "variants": [
+    {
+      "id": "crude_copper_pipe_knife_wood_handle",
+      "name": {
+        "str": "crude copper pipe knife",
+    "str_pl": "crude copper pipe knives"
+      },
+      "description": "A knife made of a crudely-worked copper pipe with a simple wooden handle, copper is a bit flimsy, and this knife probably isn't suited for combat. Better than no knife for sure."
+    },
+    {
+      "id": "crude_copper_pipe_knife_cloth/tape_handle",
+      "name": {
+        "str": "crude copper pipe knife",
+    "str_pl": "crude copper pipe knives"
+      },
+      "description": "A knife made of a crudely-worked copper pipe with a rag, tape, or some wrapped string as a handle, the copper is a bit flimsy, and this knife probably isn't suited for combat. Better than no knife for sure."
+    }
+  ],
+  "weight": "200 g",
+  "volume": "300 ml",
+  "longest_side": "25 cm",
+  "price": "30 USD",
+  "price_postapoc": "10 cent",
+  "to_hit": {
+    "grip": "weapon",
+    "length": "hand",
+    "surface": "point",
+    "balance": "neutral"
+  },
+  "material": [
+    "copper"
+  ],
+  "symbol": ";",
+  "color": "brown",
+  "qualities": [
+    [
+      "CUT",
+      2
+    ],
+    [
+      "BUTCHER",
+      11
+    ]
+  ],
+  "flags": [
+    "SHEATH_KNIFE",
+    "ALLOWS_BODY_BLOCK",
+    "FRAGILE_MELEE"
+  ],
+  "weapon_category": [
+    "KNIVES"
+  ],
+  "melee_damage": {
+    "bash": 2,
+    "stab": 8
+  }
+}
+]

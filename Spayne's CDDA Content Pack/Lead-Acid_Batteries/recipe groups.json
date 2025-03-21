@@ -1,0 +1,80 @@
+[
+  {
+    "id": "nested_lead-acid_batteries_P",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "name": "portable lead-acid batteries",
+    "description": "Recipes related to constructing more portable lead-acid batteries",
+    "skill_used": "fabrication",
+    "nested_category_data": [
+      "light_lead-acid_battery_cell",
+      "medium_lead-acid_battery_cell",
+      "large_lead-acid_battery_cell",
+      "heavy_lead-acid_battery_cell"
+         ],
+    "difficulty": 1
+  },
+  {
+    "id": "nested_lead-acid_battery_casings_P",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "name": "portable lead-acid battery casings",
+    "description": "Recipes related to constructing lead-acid battery casings for more portable batteries",
+    "skill_used": "fabrication",
+    "nested_category_data": [
+      "light_lead-acid_battery_casing",
+      "medium_lead-acid_battery_casing",
+      "large_lead-acid_battery_casing",
+      "heavy_lead-acid_battery_casing"
+         ],
+    "difficulty": 1
+  },
+  {
+    "id": "nested_lead-acid_batteries_C",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "name": "portable lead-acid batteries",
+    "description": "Recipes related to constructing more vehicle oriented lead-acid batteries",
+    "skill_used": "fabrication",
+    "nested_category_data": [
+      "car_lead-acid_battery_cell",
+      "small_lead-acid_EV_battery_cell"
+         ],
+    "difficulty": 1
+  },
+  {
+    "id": "nested_lead-acid_battery_arrays_C",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "name": "portable lead-acid batteries",
+    "description": "Recipes related to constructing arrays of more vehicle oriented lead-acid batteries",
+    "skill_used": "fabrication",
+    "nested_category_data": [
+      "small_lead-acid_EV_battery_cell_array"
+         ],
+    "difficulty": 1
+  },
+  {
+    "id": "nested_lead-acid_battery_casings_C",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_COMPONENTS",
+    "name": "lead-acid battery casings",
+    "description": "Recipes related to constructing lead-acid battery casings for more vehicle oriented batteries",
+    "skill_used": "fabrication",
+    "nested_category_data": [
+      "car_lead-acid_battery_casing",
+      "small_lead-acid_EV_battery_casing"
+         ],
+    "difficulty": 1
+  }
+]

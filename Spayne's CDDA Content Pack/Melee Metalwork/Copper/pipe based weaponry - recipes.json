@@ -1,0 +1,78 @@
+[
+{
+  "type": "recipe",
+  "activity_level": "MODERATE_EXERCISE",
+  "result": "crude_copper_pipe_knife",
+  "variant": "crude_copper_pipe_knife_cloth/tape_handle",
+  "byproducts": [
+    [
+      "scrap_copper",
+      1
+    ]
+  ],
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "fabrication",
+  "time": "15 m",
+  "reversible": false,
+  "autolearn": true,
+  "qualities": [
+    {
+      "id": "HAMMER",
+      "level": 1
+    }
+  ],
+"tools": [
+    [
+      [
+        "surface_heat",
+        10,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "spike",
+        -1
+      ],
+      [
+        "sharp_rock",
+        -1
+      ],
+      [
+        "hotcut_any",
+        1,
+        "LIST"
+      ]
+    ]
+  ],
+  "components": [
+    [
+      [
+        "cotton_patchwork",
+        1
+      ],
+      [
+        "duct_tape",
+        50
+      ],
+      [
+        "cordage_short",
+        2,
+        "LIST"
+      ],
+      [
+        "filament",
+        100,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "cu_pipe",
+        1
+      ]
+    ]
+  ]
+}
+]

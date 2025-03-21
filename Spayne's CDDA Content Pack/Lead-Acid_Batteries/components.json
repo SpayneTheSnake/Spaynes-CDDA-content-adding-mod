@@ -1,0 +1,541 @@
+[
+{
+  "type": "COMESTIBLE",
+  "id": "smoll_chem_sulphuric_acid",
+  "category": "chems",
+  "price": "2 USD 50 cent",
+  "price_postapoc": "1 USD",
+  "name": {
+    "str_sp": "sulfuric acid (small portion)"
+  },
+  "symbol": "=",
+  "color": "white",
+  "flags": [
+    "DROP_ACTION_ONLY_IF_LIQUID"
+  ],
+  "description": "A small portion of sulfuric acid made with the powers of SCIENCE!!! Exists solely too not waste as much acid when making lead-acid batteries.",
+  "comestible_type": "INVALID",
+  "material": [
+    "acid"
+  ],
+  "volume": "50 ml",
+  "weight": "91 g",
+  "charges": 1,
+  "phase": "liquid",
+  "container": "bottle_glass",
+  "freezing_point": -36,
+  "drop_action": {
+    "type": "emit_actor",
+    "emits": [
+      "emit_acid_drop"
+    ],
+    "scale_qty": true
+  }
+},
+{
+  "result": "smoll_chem_sulphuric_acid",
+  "type": "recipe",
+  "result_mult": 5,
+  "activity_level": "NO_EXERCISE",
+  "category": "CC_CHEM",
+  "subcategory": "CSC_CHEM_OTHER",
+  "time": "5 s",
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+    [
+      [
+        "chem_sulphuric_acid",
+        1
+      ]
+    ]
+  ],
+  "flags": [
+    "BLIND_EASY", "NUTRIENT_OVERRIDE"
+  ]
+},
+{
+  "result": "chem_sulphuric_acid",
+  "type": "recipe",
+  "id_suffix": "unshrunk",
+  "activity_level": "NO_EXERCISE",
+  "category": "CC_CHEM",
+  "subcategory": "CSC_CHEM_OTHER",
+  "time": "5 s",
+  "reversible": true,
+  "autolearn": true,
+  "components": [
+    [
+      [
+        "smoll_chem_sulphuric_acid",
+        5
+      ]
+    ]
+  ],
+  "flags": [
+    "BLIND_EASY"
+  ]
+},
+{
+  "id": "light_lead-acid_battery_casing",
+  "type": "GENERIC",
+  "category": "spare_parts",
+  "name": {
+    "str": "light lead-acid battery casing",
+    "str_pl": "light lead-acid battery casings"
+  },
+  "looks_like": "light_dry_cell",
+  "description": "A clay casing with the lead inside the case during firing (and stuck inside after) and two end caps that need attached, add some sulfuric acid and attach the caps and you have a battery!",
+  "weight": "25 g",
+  "volume": "8 ml",
+  "price": "10 USD",
+  "price_postapoc": "10 cent",
+   "material": [
+    "clay", "lead"
+  ],
+  "symbol": "*",
+  "color": "brown",
+  "melee_damage": {
+    "bash": 2
+  }
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "light_lead-acid_battery_casing",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    "electronics",
+    1
+  ],
+  "difficulty": 2,
+  "time": "30 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_pottery"
+    },
+    {
+      "proficiency": "prof_pottery_glazing"
+    }
+  ],
+  "using": [
+    [
+      "glazing",
+      1
+    ],
+    [
+      "earthenware_firing",
+      20
+    ]
+  ],
+  "components": [
+    [
+      [
+        "any_water",
+        1,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "lead",
+        5
+      ]
+    ],
+    [
+      [
+        "clay_lump",
+        1
+      ]
+    ]
+  ]
+},
+{
+  "id": "medium_lead-acid_battery_casing",
+  "type": "GENERIC",
+  "category": "spare_parts",
+  "name": {
+    "str": "medium lead-acid battery casing",
+    "str_pl": "medium lead-acid battery casings"
+  },
+  "looks_like": "medium_dry_cell",
+  "description": "A clay casing with the lead inside the case during firing (and stuck inside after) and two end caps that need attached, add some sulfuric acid and attach the caps and you have a battery!",
+  "weight": "75 g",
+  "volume": "18 ml",
+  "price": "10 USD",
+  "price_postapoc": "10 cent",
+   "material": [
+    "clay", "lead"
+  ],
+  "symbol": "*",
+  "color": "brown",
+  "melee_damage": {
+    "bash": 2
+  }
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "medium_lead-acid_battery_casing",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    "electronics",
+    1
+  ],
+  "difficulty": 2,
+  "time": "45 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_pottery"
+    },
+    {
+      "proficiency": "prof_pottery_glazing"
+    }
+  ],
+  "using": [
+    [
+      "glazing",
+      1
+    ],
+    [
+      "earthenware_firing",
+      30
+    ]
+  ],
+  "components": [
+    [
+      [
+        "any_water",
+        1,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "lead",
+        15
+      ]
+    ],
+    [
+      [
+        "clay_lump",
+        1
+      ]
+    ]
+  ]
+},
+{
+  "id": "large_lead-acid_battery_casing",
+  "type": "GENERIC",
+  "category": "spare_parts",
+  "name": {
+    "str": "large lead-acid battery casing",
+    "str_pl": "large lead-acid battery casings"
+  },
+  "looks_like": "large_dry_cell",
+  "description": "A clay casing with the lead inside the case during firing (and stuck inside after) and two end caps that need attached, add some sulfuric acid and attach the caps and you have a battery!",
+  "weight": "350 g",
+  "volume": "390 ml",
+  "price": "10 USD",
+  "price_postapoc": "10 cent",
+   "material": [
+    "clay", "lead"
+  ],
+  "symbol": "*",
+  "color": "brown",
+  "melee_damage": {
+    "bash": 2
+  }
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "large_lead-acid_battery_casing",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    "electronics",
+    1
+  ],
+  "difficulty": 2,
+  "time": "60 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_pottery"
+    },
+    {
+      "proficiency": "prof_pottery_glazing"
+    }
+  ],
+  "using": [
+    [
+      "glazing",
+      1
+    ],
+    [
+      "earthenware_firing",
+      50
+    ]
+  ],
+  "components": [
+    [
+      [
+        "any_water",
+        1,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "lead",
+        50
+      ]
+    ],
+    [
+      [
+        "clay_lump",
+        2
+      ]
+    ]
+  ]
+},
+{
+  "id": "heavy_lead-acid_battery_casing",
+  "type": "GENERIC",
+  "category": "spare_parts",
+  "name": {
+    "str": "heavy lead-acid battery casing",
+    "str_pl": "heavy lead-acid battery casings"
+  },
+  "looks_like": "large_dry_cell",
+  "description": "A clay casing with the lead inside the case during firing (and stuck inside after) about the size of a motorcycle battery and one end cap that needs attached, add some sulfuric acid and attach the cap and you have a battery!",
+  "weight": "2000 g",
+  "volume": "1500 ml",
+  "price": "10 USD",
+  "price_postapoc": "10 cent",
+   "material": [
+    "clay", "lead"
+  ],
+  "symbol": "*",
+  "color": "brown",
+  "melee_damage": {
+    "bash": 2
+  }
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "heavy_lead-acid_battery_casing",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    "electronics",
+    1
+  ],
+  "difficulty": 2,
+  "time": "80 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_pottery"
+    },
+    {
+      "proficiency": "prof_pottery_glazing"
+    }
+  ],
+  "using": [
+    [
+      "glazing",
+      2
+    ],
+    [
+      "earthenware_firing",
+      80
+    ]
+  ],
+  "components": [
+    [
+      [
+        "any_water",
+        1,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "lead",
+        360
+      ]
+    ],
+    [
+      [
+        "clay_lump",
+        5
+      ]
+    ]
+  ]
+},
+{
+  "id": "car_lead-acid_battery_casing",
+  "type": "GENERIC",
+  "category": "spare_parts",
+  "name": {
+    "str": "homemade car battery casing",
+    "str_pl": "homemade car battery casings"
+  },
+  "looks_like": "large_dry_cell",
+  "description": "A clay casing the size of a car battery with the lead inside the case during firing (and stuck inside after) and one end cap that needs attached, add some sulfuric acid and attach the cap and you have a battery!",
+  "weight": "15000 g",
+  "volume": "10000 ml",
+  "price": "10 USD",
+  "price_postapoc": "10 cent",
+   "material": [
+    "clay", "lead"
+  ],
+  "symbol": "*",
+  "color": "brown",
+  "melee_damage": {
+    "bash": 2
+  }
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "car_lead-acid_battery_casing",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    "electronics",
+    1
+  ],
+  "difficulty": 2,
+  "time": "175 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_pottery"
+    },
+    {
+      "proficiency": "prof_pottery_glazing"
+    }
+  ],
+  "using": [
+    [
+      "glazing",
+      12
+    ],
+    [
+      "earthenware_firing",
+      200
+    ]
+  ],
+  "components": [
+    [
+      [
+        "any_water",
+        3,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "lead",
+        2400
+      ]
+    ],
+    [
+      [
+        "clay_lump",
+        15
+      ]
+    ]
+  ]
+},
+{
+  "id": "small_lead-acid_EV_battery_casing",
+  "type": "GENERIC",
+  "category": "spare_parts",
+  "name": {
+    "str": "small lead-acid EV battery casing",
+    "str_pl": "small lead-acid EV battery casings"
+  },
+  "looks_like": "large_dry_cell",
+  "description": "A clay casing the size of a car battery with the lead inside the case during firing (and stuck inside after) and one end cap that needs attached, add some sulfuric acid and attach the cap and you have a battery!",
+  "weight": "5000 g",
+  "volume": "3000 ml",
+  "price": "10 USD",
+  "price_postapoc": "10 cent",
+   "material": [
+    "clay", "lead"
+  ],
+  "symbol": "*",
+  "color": "brown",
+  "melee_damage": {
+    "bash": 2
+  }
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "small_lead-acid_EV_battery_casing",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    "electronics",
+    1
+  ],
+  "difficulty": 2,
+  "time": "90 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_pottery"
+    },
+    {
+      "proficiency": "prof_pottery_glazing"
+    }
+  ],
+  "using": [
+    [
+      "glazing",
+      2
+    ],
+    [
+      "earthenware_firing",
+      100
+    ]
+  ],
+  "components": [
+    [
+      [
+        "any_water",
+        2,
+        "LIST"
+      ]
+    ],
+    [
+      [
+        "lead",
+        1020
+      ]
+    ],
+    [
+      [
+        "clay_lump",
+        5
+      ]
+    ]
+  ]
+}
+]

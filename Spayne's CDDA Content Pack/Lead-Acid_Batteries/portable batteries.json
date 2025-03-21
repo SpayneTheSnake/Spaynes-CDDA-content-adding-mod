@@ -1,0 +1,442 @@
+[
+{
+  "id": "light_lead-acid_battery_cell",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "light lead-acid battery",
+    "str_pl": "light lead-acid batteries"
+  },
+  "description": "A homemade lead-acid battery, it has less charge than modern rechargables but it makes up for that with being cheap too make, the rechargeability making it better than homemade dry batteries",
+  "weight": "30 g",
+  "volume": "8 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "=",
+  "looks_like": "light_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+  "capacity": 15,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE",
+    "BATTERY_LIGHT"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 15
+      }
+    }
+  ]
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "light_lead-acid_battery_cell",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    [
+      "electronics",
+      1
+    ],
+    [
+      "chemistry",
+      1
+    ]
+  ],
+  "difficulty": 2,
+  "time": "5 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_intro_chemistry"
+    }
+  ],
+  "components": [
+    [
+      [
+        "smoll_chem_sulphuric_acid",
+        1
+      ]
+    ],
+    [
+      [
+        "light_lead-acid_battery_casing",
+        1
+      ]
+    ],
+    [
+      [
+        "adhesive",
+        2,
+        "LIST"
+      ]
+    ]
+  ]
+},
+{
+  "id": "medium_lead-acid_battery_cell",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "medium lead-acid battery",
+    "str_pl": "medium lead-acid batteries"
+  },
+  "description": "A homemade lead-acid battery, it has less charge than modern rechargables but it makes up for that with being cheap too make, the rechargeability making it better than homemade dry batteries",
+  "weight": "90 g",
+  "volume": "17 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "=",
+  "looks_like": "medium_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+  "capacity": 60,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE",
+    "BATTERY_MEDIUM"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 60
+      }
+    }
+  ]
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "medium_lead-acid_battery_cell",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    [
+      "electronics",
+      1
+    ],
+    [
+      "chemistry",
+      1
+    ]
+  ],
+  "difficulty": 2,
+  "time": "5 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_intro_chemistry"
+    }
+  ],
+  "components": [
+    [
+      [
+        "smoll_chem_sulphuric_acid",
+        2
+      ]
+    ],
+    [
+      [
+        "medium_lead-acid_battery_casing",
+        1
+      ]
+    ],
+    [
+      [
+        "adhesive",
+        2,
+        "LIST"
+      ]
+    ]
+  ]
+},
+{
+  "id": "large_lead-acid_battery_cell",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "large lead-acid battery",
+    "str_pl": "large lead-acid batteries"
+  },
+  "description": "A homemade lead-acid battery, it has less charge than modern rechargables but it makes up for that with being cheap too make, the rechargeability making it better than homemade dry batteries",
+  "weight": "380 g",
+  "volume": "390 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "=",
+  "looks_like": "heavy_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+  "capacity": 240,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE",
+    "BATTERY_HEAVY"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 240
+      }
+    }
+  ]
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "large_lead-acid_battery_cell",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    [
+      "electronics",
+      1
+    ],
+    [
+      "chemistry",
+      1
+    ]
+  ],
+  "difficulty": 2,
+  "time": "5 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_intro_chemistry"
+    }
+  ],
+  "components": [
+    [
+      [
+        "chem_sulphuric_acid",
+        1
+      ]
+    ],
+    [
+      [
+        "large_lead-acid_battery_casing",
+        1
+      ]
+    ],
+    [
+      [
+        "adhesive",
+        2,
+        "LIST"
+      ]
+    ]
+  ]
+},
+{
+  "id": "heavy_lead-acid_battery_cell",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "heavy lead-acid battery",
+    "str_pl": "heavy lead-acid batteries"
+  },
+  "description": "A homemade lead-acid battery, so large it doesn't really fit in any tool without the tool being modified more designed for portable power for wired tools (allowing it too charge off of a cable too), it is also about the size of a motorbike battery and can be used in vehicles it has less charge than modern rechargables but it makes up for that with being cheap too make, the rechargeability making it better than homemade dry batteries",
+  "weight": "3000 g",
+  "volume": "1500 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "=",
+  "looks_like": "heavy_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+"use_action": [
+    {
+      "type": "link_up",
+      "cable_length": 3,
+      "charge_rate": "10 W"
+    }
+  ],
+  "capacity": 450,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 450
+      }
+    }
+  ]
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "heavy_lead-acid_battery_cell",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "fabrication",
+  "skills_required": [
+    [
+      "electronics",
+      1
+    ],
+    [
+      "chemistry",
+      1
+    ]
+  ],
+  "difficulty": 2,
+  "time": "10 m",
+  "autolearn": true,
+  "proficiencies": [
+    {
+      "proficiency": "prof_intro_chemistry"
+    }
+  ],
+  "components": [
+    [
+      [
+        "chem_sulphuric_acid",
+        3
+      ]
+    ],
+    [
+      [
+        "heavy_lead-acid_battery_casing",
+        1
+      ]
+    ],
+    [
+      [
+        "adhesive",
+        4,
+        "LIST"
+      ]
+    ]
+  ]
+},
+{
+  "type": "construction_group",
+  "id": "place_heavy_lead-acid_battery",
+  "name": "Place heavy lead-acid Battery"
+},
+{
+  "type": "construction",
+  "id": "app_battery_heavy_lead-acid",
+  "group": "place_heavy_lead-acid_battery",
+  "category": "APPLIANCE",
+  "required_skills": [
+    [
+      "electronics",
+      0
+    ]
+  ],
+  "time": "1 m",
+  "components": [
+    [
+      [
+        "heavy_lead-acid_battery_cell",
+        1
+      ]
+    ]
+  ],
+  "pre_special": "check_empty",
+  "post_special": "done_appliance",
+  "activity_level": "LIGHT_EXERCISE"
+},
+{
+  "type": "vehicle_part",
+  "id": "ap_battery_lead-acid_heavy",
+  "name": {
+    "str": "car grid battery"
+  },
+  "categories": [
+    "energy"
+  ],
+  "looks_like": "heavy_dry_cell",
+  "color": "red",
+  "flags": [
+    "OBSTACLE",
+    "APPLIANCE"
+  ],
+  "description": "A heavy lead-acid battery placed too allow plugging devices into it, also can connect too the grid",
+  "item": "heavy_lead-acid_battery_cell",
+  "breaks_into": [
+    {
+      "item": "ceramic_shard",
+      "count": [
+        6,
+        9
+      ]
+    },
+    {
+      "item": "lead",
+      "count": [
+        342,
+        360
+      ]
+    },
+    {
+      "item": "chem_sulphuric_acid",
+      "count": [
+        1,
+        1
+      ]
+    }
+  ],
+  "durability": 60,
+  "requirements": {
+    "removal": {
+      "time": "1 m"
+    }
+  },
+  "variants": [
+    {
+      "symbols": "B",
+      "symbols_broken": "#"
+    }
+  ]
+}
+]

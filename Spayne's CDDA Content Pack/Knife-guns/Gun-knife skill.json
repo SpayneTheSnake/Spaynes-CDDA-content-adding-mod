@@ -1,0 +1,74 @@
+[
+{
+  "type": "skill",
+  "id": "gun-knife",
+  "name": {
+    "str": "gun-knife shooting"
+  },
+  "description": "Handguns have poor accuracy compared to rifles, but are usually quick to fire and reload faster than other guns.  They are very effective at close quarters, though unsuited for long range engagement.",
+  "tags": [
+    "combat_skill"
+  ],
+  "time_to_attack": {
+    "min_time": 20,
+    "base_time": 30,
+    "time_reduction_per_level": 1
+  },
+  "display_category": "display_ranged",
+  "sort_rank": 10000,
+  "level_descriptions_theory": [
+    {
+      "level": 0,
+      "description": "You can't tell a revolver from a semiautomatic."
+    },
+    {
+      "level": 1,
+      "description": "You can tell a revolver from a semiautomatic."
+    },
+    {
+      "level": 3,
+      "description": "You know the basics of handguns and their usage."
+    },
+    {
+      "level": 5,
+      "description": "You're knowledgeable about handguns and their uses."
+    },
+    {
+      "level": 9,
+      "description": "You know every trick and technique for firing handguns accurately and effectively."
+    }
+  ],
+  "level_descriptions_practice": [
+    {
+      "level": 0,
+      "description": "Hopefully it won't fly out of your hands when you fire one."
+    },
+    {
+      "level": 1,
+      "description": "Handguns feel awkward to use for you."
+    },
+    {
+      "level": 3,
+      "description": "You're comfortable with the usage of handguns."
+    },
+    {
+      "level": 5,
+      "description": "You're quite skilled and accurate with handguns."
+    },
+    {
+      "level": 7,
+      "description": "You could win a duel at high noon."
+    },
+    {
+      "level": 9,
+      "description": "You're a deadeye with pistols and can likely hit someone at 20 yards from the hip with ease."
+    }
+  ],
+  "companion_skill_practice": [
+    {
+      "skill": "hunting",
+      "weight": 25
+    }
+  ]
+}
+]

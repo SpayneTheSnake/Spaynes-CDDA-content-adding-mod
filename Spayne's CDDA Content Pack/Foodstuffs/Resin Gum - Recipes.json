@@ -1,0 +1,241 @@
+[
+  {
+    "id": "nested_resin_gum",
+    "type": "nested_category",
+    "activity_level": "LIGHT_EXERCISE",
+    "category": "CC_FOOD",
+    "subcategory": "CSC_FOOD_SNACK",
+    "name": "Pine resin chewing gums",
+    "description": "Recipes related to making gum with pine resin",
+    "skill_used": "cooking",
+    "nested_category_data": [
+    "resin_gum",
+    "resin_gum_spiced",
+    "resin_gum_fruity",
+    "resin_gum_sweetened"
+         ],
+    "difficulty": 1
+  },
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "resin_gum",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "cooking",
+"skills_required": [
+    "survival",
+    1  ],
+  "time": "10 m",
+  "autolearn": true,
+  "batch_time_factors": [
+    20,
+    1
+  ],
+  "qualities": [
+    {
+      "id": "STRAIN",
+      "level": 1
+    },
+    {
+      "id": "BOIL",
+      "level": 1
+    }
+  ],
+  "tools": [
+    [
+      [
+        "surface_heat",
+        3,
+        "LIST"
+      ]
+    ]
+  ],
+  "proficiencies": [
+    {
+      "proficiency": "prof_food_prep"
+    }
+  ],
+  "components": [
+    [
+      [
+        "pine_resin",
+        1
+      ]
+    ]
+  ],
+"charges": 25,
+"difficulty": 1
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "resin_gum_sweetened",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "cooking",
+"skills_required": [
+    "survival",
+    1  ],
+  "time": "10 m",
+  "autolearn": true,
+  "batch_time_factors": [
+    20,
+    1
+  ],
+  "qualities": [
+    {
+      "id": "STRAIN",
+      "level": 1
+    },
+    {
+      "id": "BOIL",
+      "level": 1
+    }
+  ],
+  "tools": [
+    [
+      [
+        "surface_heat",
+        3,
+        "LIST"
+      ]
+    ]
+  ],
+  "proficiencies": [
+    {
+      "proficiency": "prof_food_prep"
+    }
+  ],
+  "components": [
+    [
+      [
+        "pine_resin",
+        1
+      ]
+    ],
+    [
+      [
+        "sugar",
+        2
+      ]
+    ]
+  ],
+"charges": 25,
+"difficulty": 1
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "resin_gum_fruity",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "cooking",
+"skills_required": [
+    "survival",
+    1  ],
+  "time": "30 s",
+  "autolearn": true,
+  "batch_time_factors": [
+    75,
+    1
+  ],
+  "qualities": [
+    {
+      "id": "STRAIN",
+      "level": 1
+    },
+    {
+      "id": "BOIL",
+      "level": 1
+    }
+  ],
+  "tools": [
+    [
+      [
+        "surface_heat",
+        1,
+        "LIST"
+      ]
+    ]
+  ],
+  "proficiencies": [
+    {
+      "proficiency": "prof_food_prep"
+    }
+  ],
+  "components": [
+    [
+      [
+        "resin_gum",
+        1
+      ]
+    ],
+    [
+      [
+        "dry_fruit",
+        1
+      ]
+    ]
+  ],
+"charges": 1,
+"difficulty": 1
+},
+{
+  "type": "recipe",
+  "activity_level": "LIGHT_EXERCISE",
+  "result": "resin_gum_spiced",
+  "category": "CC_*",
+  "subcategory": "CSC_*_NESTED",
+  "skill_used": "cooking",
+"skills_required": [
+    "survival",
+    1  ],
+  "time": "30 s",
+  "autolearn": true,
+  "batch_time_factors": [
+    75,
+    1
+  ],
+  "qualities": [
+    {
+      "id": "STRAIN",
+      "level": 1
+    },
+    {
+      "id": "BOIL",
+      "level": 1
+    }
+  ],
+  "tools": [
+    [
+      [
+        "surface_heat",
+        1,
+        "LIST"
+      ]
+    ]
+  ],
+  "proficiencies": [
+    {
+      "proficiency": "prof_food_prep"
+    }
+  ],
+  "components": [
+    [
+      [
+        "resin_gum",
+        1
+      ]
+    ],
+    [
+      [
+        "wild_herbs",
+        1
+      ]
+    ]
+  ],
+"charges": 1,
+"difficulty": 1
+}
+]

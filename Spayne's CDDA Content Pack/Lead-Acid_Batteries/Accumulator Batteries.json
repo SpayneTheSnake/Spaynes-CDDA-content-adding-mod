@@ -1,0 +1,43 @@
+[
+{
+  "id": "light_lead-acid_accumulator",
+  "type": "MAGAZINE",
+  "category": "tool_magazine",
+  "name": {
+    "str": "homemade car battery",
+    "str_pl": "homemade car batteries"
+  },
+  "description": "A homemade lead-acid battery, as big as a normal car battery and intended too be used as a normal car battery, it has less charge than modern rechargables but it makes up for that with being cheap too make, the rechargeability making it better than homemade dry batteries",
+  "weight": "20000 g",
+  "volume": "10000 ml",
+  "price": "50 cent",
+  "price_postapoc": "25 cent",
+  "material": [
+    "steel",
+    "acid"
+  ],
+  "symbol": "=",
+  "looks_like": "heavy_dry_cell",
+  "color": "yellow",
+  "ammo_type": [
+    "battery"
+  ],
+  "capacity": 3000,
+    "flags": [
+    "NO_SALVAGE",
+    "NO_UNLOAD",
+    "NO_RELOAD",
+    "RECHARGE",
+    "BATTERY_HEAVY"
+  ],
+  "pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "battery": 3000
+      }
+    }
+  ]
+}
+]

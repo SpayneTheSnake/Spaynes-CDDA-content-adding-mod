@@ -1,0 +1,17 @@
+[
+  {
+    "type": "profession",
+    "subtype": "hobby",
+    "id": "test_thingy",
+    "name": "test",
+    "description": "You've got a knife-gun somehow",
+    "points": 0,
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "knife-gun_folding_cheap" }
+        ]
+        }
+        }
+  }
+]

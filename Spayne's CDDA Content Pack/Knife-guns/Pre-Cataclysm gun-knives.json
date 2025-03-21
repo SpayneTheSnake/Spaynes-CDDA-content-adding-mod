@@ -1,0 +1,78 @@
+[
+{
+  "id": "knife-gun_folding_cheap",
+  "type": "GUN",
+  "name": {
+    "str": "\"Fire Ant A1\" knife-gun",
+    "str_pl": "\"Fire Ant A1\" knife-guns"
+  },
+  "description": "A small folding knife with a locking blade, a pocket clip, and a single shot .22 shooting mechanism, sold by a E-celeb in there merch after getting a similar product and seeing a market for a cheaper version. Not as good a weapon as a solid fixed-blade knife, plus the gun part makes it cumbersome, its difficult too aim, and lessened barrel time lowers bullet power a bit. You can tell its just a diffrent cheap pocket knife with a new part added.",
+  "weight": "250 g",
+  "volume": "80 ml",
+  "longest_side": "15 cm",
+  "price": "120 USD",
+  "price_postapoc": "2 USD",
+  "to_hit": {
+    "grip": "weapon",
+    "length": "hand",
+    "surface": "point",
+    "balance": "uneven"
+  },
+  "material": [
+    "steel",
+    "plastic"
+  ],
+  "symbol": ";",
+  "color": "light_gray",
+  "qualities": [
+    [
+      "CUT",
+      2
+    ],
+    [
+      "CUT_FINE",
+      1
+    ],
+    [
+      "BUTCHER",
+      12
+    ]
+  ],
+  "skill": "gun-knife",
+"pocket_data": [
+    {
+      "pocket_type": "MAGAZINE",
+      "rigid": true,
+      "ammo_restriction": {
+        "22": 1
+      }
+    }
+  ],
+"ammo": [
+    "22"
+  ],
+  "flags": [
+    "BELT_CLIP",
+    "ALLOWS_BODY_BLOCK",
+    "CONDUCTIVE",
+   "NEVER_JAMS",
+    "RELOAD_EJECT",
+    "EASY_CLEAN"
+  ],
+"ranged_damage": {
+    "damage_type": "bullet",
+    "amount": -4
+  },
+  "handling": 6,
+  "reload": 110,
+  "dispersion": 2500,
+  "sight_dispersion": 100,
+  "range": -5,
+  "weapon_category": [
+    "KNIVES"
+  ],
+  "melee_damage": {
+    "stab": 12
+  }
+}
+]
